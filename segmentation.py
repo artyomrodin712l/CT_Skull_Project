@@ -14,7 +14,7 @@ for i in range(256):
     imgs_skulls.append(image)
 
 
-# Сегментация
+# Сегментация 
 def filtering_image(image):
     sigma = 2
     blur = skimage.color.rgb2gray(image)
