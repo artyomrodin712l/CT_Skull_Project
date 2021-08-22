@@ -131,7 +131,7 @@ while True:
         data = np.zeros(len(image), dtype=mesh.Mesh.dtype)
         mobius_mesh = mesh.Mesh(data, remove_empty_areas=False)
         mobius_mesh.save('mysurface.stl')
-
+ 
         plt.show()
 # --------------------------------- Close & Exit ---------------------------------
 window.close()
